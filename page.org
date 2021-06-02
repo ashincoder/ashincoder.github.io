@@ -1,0 +1,5 @@
+#+TITLE: AshinCoder's Website
+#+DESCRIPTION: My Website with my youtube channe
+#+AUTHOR: Ashin Antony
+#+EXPORT_FILE_NAME: /home/ashin/Repos/ashincoder.github.io/page.html
+#+SETUPFILE: theme-readtheorg.setup
