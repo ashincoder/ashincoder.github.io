@@ -3,3 +3,22 @@
 #+AUTHOR: Ashin Antony
 #+EXPORT_FILE_NAME: /home/ashin/Repos/ashincoder.github.io/index.html
 #+SETUPFILE: theme-readtheorg.setup
+#+OPTIONS: num:nil
+
+* HOME
+This is a website created using the emacs org mode. It is hosted using the github pages.
+The following are my main social media links:
+
++ Github :[[https://www.github.com/ashincoder][ ashincoder · GitHub]]
++ Gitlab :[[https://www.gitlab.com/ashincoder][ ashincoder · GitLab]]
++ Youtube :[[https://www.youtube.com/channel/UCZqKL3vIdyHUiLuR1vYwVgw][ Ashin Antony - YouTube]]
+
+* SOFTWARE I USE
+These are the main software I use:
+
++ Browser :[[https://brave.com/][ Brave Browser]]
++ Photo Editor : Gimp
++ Video Recorder : Ffmpeg
++ Shell : zsh
++ Prompt : Starship
++ Editor: Doom Emacs
