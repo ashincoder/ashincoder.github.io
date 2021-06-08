@@ -2,7 +2,7 @@
 #+DESCRIPTION: My Website Writter in org mode. 
 #+AUTHOR: Ashin Antony
 #+EXPORT_FILE_NAME: /home/ashin/Repos/ashincoder.github.io/index.html
-#+SETUPFILE: org-html-themes/org/theme-readtheorg.setup
+#+SETUPFILE: /home/ashin/Repos/ashincoder.github.io/org-html-themes/org/theme-readtheorg.setup
 #+HTML_HEAD: <style>pre.src{background:#343131;color:black;} </style>
 #+OPTIONS: num:nil
 
