@@ -1,4 +1,4 @@
-﻿*{
+*{
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
     box-sizing:border-box}
@@ -1870,7 +1870,7 @@ a .fa,a .rst-content .admonition-title,.rst-content a .admonition-title,a .rst-c
 
 .wy-tray-container{
     position:fixed;
-    bottom:0px;
+    bottom:0;
     left:0;
     z-index:600}
 
@@ -1943,14 +1943,14 @@ button[disabled]{
     text-align:center;
     cursor:pointer;
     font-size:100%;
-    padding:6px 12px 8px 12px;
+    padding:6px 12px 8px;
     color:#fff;
     border:1px solid rgba(0,0,0,0.1);
     background-color:#27AE60;
     text-decoration:none;
     font-weight:normal;
     font-family:"Lato","proxima-nova","Helvetica Neue",Arial,sans-serif;
-    box-shadow:0px 1px 2px -1px rgba(255,255,255,0.5) inset,0px -2px 0px 0px rgba(0,0,0,0.1) inset;
+    box-shadow:0 1px 2px -1px rgba(255,255,255,0.5) inset,0 -2px 0 0 rgba(0,0,0,0.1) inset;
     outline-none:false;
     vertical-align:middle;
     *display:inline;
@@ -1977,8 +1977,8 @@ button[disabled]{
     outline:0}
 
 .btn:active{
-    box-shadow:0px -1px 0px 0px rgba(0,0,0,0.05) inset,0px 2px 0px 0px rgba(0,0,0,0.1) inset;
-    padding:8px 12px 6px 12px}
+    box-shadow:0 -1px 0 0 rgba(0,0,0,0.05) inset,0 2px 0 0 rgba(0,0,0,0.1) inset;
+    padding:8px 12px 6px}
 
 .btn:visited{
     color:#fff}
@@ -2220,7 +2220,7 @@ legend{
 
 label{
     display:block;
-    margin:0 0 0.3125em 0;
+    margin:0 0 0.3125em;
     color:#333;
     font-size:90%}
 
@@ -2306,12 +2306,12 @@ input,select,textarea{
     clear:left}
 
 .wy-control-group.wy-control-group-no-input .wy-control{
-    margin:6px 0 0 0;
+    margin:6px 0 0;
     font-size:90%}
 
 .wy-control-no-input{
     display:inline-block;
-    margin:6px 0 0 0;
+    margin:6px 0 0;
     font-size:90%}
 
 .wy-control-group.fluid-input input[type="text"],.wy-control-group.fluid-input input[type="password"],.wy-control-group.fluid-input input[type="email"],.wy-control-group.fluid-input input[type="url"],.wy-control-group.fluid-input input[type="date"],.wy-control-group.fluid-input input[type="month"],.wy-control-group.fluid-input input[type="time"],.wy-control-group.fluid-input input[type="datetime"],.wy-control-group.fluid-input input[type="datetime-local"],.wy-control-group.fluid-input input[type="week"],.wy-control-group.fluid-input input[type="number"],.wy-control-group.fluid-input input[type="search"],.wy-control-group.fluid-input input[type="tel"],.wy-control-group.fluid-input input[type="color"]{
@@ -2572,7 +2572,7 @@ select[disabled],textarea[disabled],input[readonly],select[readonly],textarea[re
         width:100%}
 
     .wy-form-aligned .wy-control{
-        margin:1.5em 0 0 0}
+        margin:1.5em 0 0}
 
     .wy-form .wy-help-inline,.wy-form-message-inline,.wy-form-message{
         display:block;
@@ -2687,7 +2687,7 @@ select[disabled],textarea[disabled],input[readonly],select[readonly],textarea[re
     border-bottom-width:0}
 
 .wy-table-horizontal td,.wy-table-horizontal th{
-    border-width:0 0 1px 0;
+    border-width:0 0 1px;
     border-bottom:1px solid #e1e4e5}
 
 .wy-table-horizontal tbody>tr:last-child td{
@@ -2883,8 +2883,8 @@ code.code-large,.rst-content tt.code-large{
 .codeblock-example:after{
     content:"Example";
     position:absolute;
-    top:0px;
-    left:0px;
+    top:0;
+    left:0;
     background:#9B59B6;
     color:#fff;
     padding:6px 12px}
@@ -2895,10 +2895,10 @@ code.code-large,.rst-content tt.code-large{
 
 .codeblock,pre.literal-block,.rst-content .literal-block,.rst-content pre.literal-block,div[class^='highlight']{
     border:1px solid #e1e4e5;
-    padding:0px;
+    padding:0;
     overflow-x:auto;
     background:#fff;
-    margin:1px 0 24px 0}
+    margin:1px 0 24px}
 
 .codeblock div[class^='highlight'],pre.literal-block div[class^='highlight'],.rst-content .literal-block div[class^='highlight'],div[class^='highlight'] div[class^='highlight']{
     border:none;
@@ -2911,7 +2911,7 @@ div[class^='highlight'] td.code{
 .linenodiv pre{
     border-right:solid 1px #e6e9ea;
     margin:0;
-    padding:12px 12px;
+    padding:12px;
     font-family:Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
     font-size:12px;
     line-height:1.5;
@@ -2920,7 +2920,7 @@ div[class^='highlight'] td.code{
 div[class^='highlight'] pre{
     white-space:pre;
     margin:0;
-    padding:12px 12px;
+    padding:12px;
     font-family:Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
     font-size:12px;
     line-height:1.5;
@@ -3312,7 +3312,7 @@ div[class^='highlight'] pre{
 
 .wy-side-nav-search img{
     display:block;
-    margin:auto auto 0.809em auto;
+    margin:auto auto 0.809em;
     height:45px;
     width:45px;
     background-color:#2980B9;
@@ -3704,11 +3704,11 @@ nav.stickynav{
 
 .rst-content .align-right{
     float:right;
-    margin:0px 0px 24px 24px}
+    margin:0 0 24px 24px}
 
 .rst-content .align-left{
     float:left;
-    margin:0px 24px 24px 0px}
+    margin:0 24px 24px 0}
 
 .rst-content .align-center{
     margin:auto;
@@ -3905,6 +3905,3 @@ span[id*='MathJax-Span']{
 
 .math{
     text-align:center}
-
-
-/*# sourceMappingURL=theme.css.map */

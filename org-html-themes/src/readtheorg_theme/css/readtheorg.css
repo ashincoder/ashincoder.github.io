@@ -73,7 +73,7 @@ body{
 p{
     font-size:16px;
     line-height:24px;
-    margin:0px 0px 24px 0px;
+    margin:0 0 24px;
 }
 
 b,strong{
@@ -84,7 +84,7 @@ blockquote{
     border-left:5px solid #CCCCCC;
     font-style:italic;
     line-height:24px;
-    margin:0px 0px 24px 0px;
+    margin:0 0 24px;
     /* margin-left:24px; */
     padding: 6px 20px;
 }
@@ -93,7 +93,7 @@ ul,ol,dl{
     line-height:24px;
     list-style-image:none;
     /* list-style:none; */
-    margin:0px 0px 24px 0px;
+    margin:0 0 24px;
     padding:0;
 }
 
@@ -214,10 +214,10 @@ dl dd{
 
     @page{
         size: auto;
-        margin: 25mm 25mm 25mm 25mm;}
+        margin: 25mm;}
 
     body {
-        margin: 0px;}
+        margin: 0;}
 }
 
 @media screen and (max-width: 768px){
@@ -305,8 +305,8 @@ code{
 .codeblock-example:after{
     content:"Example";
     position:absolute;
-    top:0px;
-    left:0px;
+    top:0;
+    left:0;
     background:#9B59B6;
     color:#fff;
     padding:6px 12px}
@@ -320,7 +320,7 @@ code{
     padding:12px;
     overflow-x:auto;
     background:#fff;
-    margin:1px 0 24px 0}
+    margin:1px 0 24px}
 
 pre.src{
     /* color:#404040; */
@@ -328,7 +328,7 @@ pre.src{
     font-family:Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
     font-size:12px;
     line-height:1.5;
-    margin:1px 0px 24px 0px;
+    margin:1px 0 24px;
     overflow:auto;
     padding:12px;
     white-space:pre;
@@ -456,7 +456,7 @@ table tr:nth-child(2n) td{
     #table-of-contents .close-sidebar {
        color: rgba(255, 255, 255, 0.3);
        display: inline-block;
-       margin: 0px 10px 0px 45px;
+       margin: 0 10px 0 45px;
        padding: 10px;
     }
 }
@@ -594,7 +594,7 @@ a .fa,a #content .admonition-title,#content a .admonition-title{
     /* background:#6ab0de; */
     /* margin:-12px; */
     padding:6px 12px;
-    margin-bottom:0px}
+    margin-bottom:0}
 
 #content .danger,#content .error{
     background:#fdf3f2}
@@ -648,7 +648,7 @@ legend{
 
 label{
     display:block;
-    margin:0 0 0.3125em 0;
+    margin:0 0 0.3125em;
     color:#333;
     font-size:90%}
 
@@ -687,7 +687,7 @@ hr{
 
 #table-of-contents li{
     list-style:none;
-    margin-left: 0px;
+    margin-left: 0;
 }
 
 #table-of-contents header{
@@ -934,12 +934,12 @@ footer p{
 
 #postamble .author {
     font-size: 100%;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 #postamble .date {
     font-size: 90%;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     color: #27AE60;
 }
 
@@ -1082,7 +1082,7 @@ h2.footnotes{
 
 .todo{
     background-color: #f29f97;
-    padding: 0px 4px;
+    padding: 0 4px;
     color: #fff;
 }
 
@@ -1092,7 +1092,7 @@ h2.footnotes{
 
 .done{
     background-color: #6ab0de;
-    padding: 0px 4px;
+    padding: 0 4px;
     color: #fff;
 }
 
